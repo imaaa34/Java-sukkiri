@@ -1,9 +1,11 @@
-public class Cleric {
-	String name;
-	final int MAX_HP = 50;
-	int hp = 50;
-	final int MAX_MP = 10;
-	int mp = 10;
+static final int MAX_HP = 50;
+static final int MAX_MP = 10;
+
+public class Cleric(String name, int hp, int mp) {
+	this.name = name;
+	this.hp = hp;
+	this.mp = mp;
+	
 	
 	public void selfAid() {
 		System.out.println(this.name + "がセルフエイドを唱えた！");

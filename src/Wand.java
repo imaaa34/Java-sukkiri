@@ -7,10 +7,7 @@ public class Wand {
 	}
 	
 	public void setName(String name) {
-		if(name == null) {
-			throw new IllegalArgumentException("名前がnullである。処理を中断。");
-		}
-		if(name.length() < 3) {
+		if(name == null || name.length() < 3) {
 			throw new IllegalArgumentException("名前が短すぎる。処理を中断。");
 		}
 		this.name = name;

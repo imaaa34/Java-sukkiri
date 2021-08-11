@@ -15,5 +15,9 @@ public class Main {
 		
 		c.selfAid();
 		c.pray(6);
+		
+//		chapter11
+		PoisonMatango pm = new PoisonMatango('A');
+		System.out.println("HP:" + pm.hp);
 	}
 }

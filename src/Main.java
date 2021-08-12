@@ -19,5 +19,12 @@ public class Main {
 //		chapter11
 		PoisonMatango pm = new PoisonMatango('A');
 		System.out.println("HP:" + pm.hp);
+		
+		Y[] ary = new Y[2]
+		Y[0] = new A;
+		Y[1] = new B;
+		for(Y y : ary) {
+			y.b();
+		}
 	}
 }

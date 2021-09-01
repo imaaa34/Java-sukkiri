@@ -6,7 +6,7 @@ public class Book extends TangibleAsset {
 //		this.name = name;
 //		this.price = price;
 //		this.color = color;
-		super(name, price, color);
+		super(name, price, color);  //親クラスのコンストラクタ呼び出し
 		this.isbn = isbn;
 	}
 	public String getIbsn() { return this.isbn; }
